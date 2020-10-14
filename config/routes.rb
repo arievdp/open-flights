@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'pages#indes'
+  root 'pages#index'
   namespace :api do
     namespace :v1 do
       resources :airlines, param: :slug
